@@ -49,7 +49,11 @@ namespace NeverBadWeather.Infrastructure.WeatherForecastService
 
         public IEnumerable<Place> GetAllPlaces()
         {
-            var lines = Resources.noreg.Split(Environment.NewLine).Skip(1);
+            var lines = Resources.noreg
+                                 .Split(
+                            Environment.NewLine.ToCharArray(), 
+                                    StringSplitOptions.RemoveEmptyEntries)
+                                 .Skip(1);
             return lines.Select(PlaceFromCsvLine).ToList();
         }
 
