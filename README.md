@@ -1,4 +1,4 @@
-﻿# Case-oppgave for GET IT-studentenes inneuke i august 2020
+﻿# Case-oppgave for GET IT-studenters inneuke 
 
 Målet med denne uken er å studere og forstå en eksempel-applikasjon som Terje har laget. 
 Det er krevende å sette seg inn i eksisterende kode, men det er også veldig lærerikt!
@@ -6,11 +6,10 @@ Det er krevende å sette seg inn i eksisterende kode, men det er også veldig l�
 Applikasjonen dere skal jobbe med er basert på en idé som Christoffer Hellenes hadde; han
 ønsket en app som foreslår hva han skal ha på seg ut fra værmeldingen.
 
-Terje er tilgjengelig mandag og fredag, men dagene i mellom er tanken at dere jobber selvstendig og individuelt med dette; samtidig som dere hjelper hverandre og deler kunnskapen dere har og får. 
-
 Vurder alltid om oppgaven du ser på gir utbytte for deg. Om den er for lett eller for vanskelig, er det bedre å velge noe annet. Overordnet er ideen å sette seg inn i denne applikasjonen og lære av det. En måte å få til det på er ved å gjøre små endringer. I tillegg til det som er under, kan dere finne på små endringer å gjøre selv - om forslagene under ikke passer.
 
-For de få av dere som er med denne uken men som ikke har fått bedrift ennå, skal dere prioritere annerledes denne uken. Ta en prat med Terje for detaljene.
+Denne oppgaven ble opprinnelig laget i august 2020. Siden det har yr.no tilbudt et nytt json-API. Dette fantes ikke da oppgaven ble laget. 
+
 
 ## Oppgaver
 
@@ -36,6 +35,7 @@ For de få av dere som er med denne uken men som ikke har fått bedrift ennå, s
         - en posisjon veldig langt unna
         - et tidspunkt det ikke finnes værmelding for
         - hva om ingen regler matcher gitt temperatur
+1. Skriv om applikasjonen slik at den bruker det nye json-apiet til yr.no. Det skal være mulig uten å endre noe inne i core. 
 1. Det er mye funksjonalitet som mangler. Ta tak i noe du ser behovet for og som du tror du kan få til. Under er noen ideer, men tenk gjerne ut noe selv!
     - Ta hensyn til regn. (Det er delvis lagt opp til dette.) Hvordan får man det fra Yr? Hvordan må koden endres for å matche opp reglene også ut fra regn? 
     - La brukeren velge sted istedenfor bare å gi anbefaling ut fra hvor han eller hun er nå:
